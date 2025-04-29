@@ -1,0 +1,26 @@
+.auth-container {
+    max-width: 450px;
+    margin: 40px auto;
+  }
+  
+  .auth-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .auth-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .auth-link {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  

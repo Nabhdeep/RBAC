@@ -1,0 +1,80 @@
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .admin-title {
+    font-size: 24px;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--medium-gray);
+  }
+  
+  .admin-table th {
+    background-color: var(--light-gray);
+    font-weight: 600;
+  }
+  
+  .admin-table tr:hover {
+    background-color: var(--light-gray);
+  }
+  
+  .admin-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .post-form textarea {
+    min-height: 200px;
+    resize: vertical;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    transition: var(--transition);
+  }
+  
+  .navbar-link:hover {
+    color: var(--primary-color);
+  }
+  
+  .navbar-user {
+    margin-right: 15px;
+  }
